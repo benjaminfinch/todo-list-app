@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    margin: 11px 11px 11px 11px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+body {
+    background: ghostwhite;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.todoList {
+    border: solid 3px lightseagreen;
+    border-radius: 60px;
+    width: 700px;
+    margin-top: 180px;
+    background: darkslategrey;
+    color: floralwhite;
+
+}
+
+.todoForm {
+    display: flex;
+    justify-content: center;
+    margin: 11px 11px 11px 11px;
+}
+
+.inputTask {
+    margin: 11px 5px 11px 5px;
+}
+
+.submitTask {
+    margin: 11px 5px 20px 11px;
+}
+
+.inputArea {
+    width: 300px;
+}
+
+.number {
+    width: 55px;
+}
+
+.task {
+    width: 350px;
+}
+
+.delete {
+    width: 77px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 14px;
+    text-align: center;
+}
+
+th,
+td {
+
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: darkseagreen;
+}
+
+.text-center {
+    margin-top: 15px;
+}
